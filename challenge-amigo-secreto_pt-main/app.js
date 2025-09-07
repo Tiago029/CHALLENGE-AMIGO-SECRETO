@@ -44,7 +44,7 @@ function sortearAmigo() {
     let resultadoHTML = document.getElementById('resultado');
     resultadoHTML.innerHTML = ''; // limpa antes de mostrar
     let item = document.createElement('li');
-    item.textContent = `Parabéns! A pessoa selecionada foi: ${amigoSorteado}`;
+    item.textContent = `Parabéns! A pessoa sorteada foi: ${amigoSorteado}`;
     resultadoHTML.appendChild(item);
     }
 }
